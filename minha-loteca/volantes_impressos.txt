@@ -1,0 +1,276 @@
+++++++++++ Volantes Impressos em TXT +++++++++++
+
++ Volante 1
+Jogo  1: x
+Jogo  2: x
+Jogo  3: 2
+Jogo  4: x
+Jogo  5: 2
+Jogo  6: x
+Jogo  7: 2
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 2
+Jogo  1: x
+Jogo  2: x
+Jogo  3: 2
+Jogo  4: x
+Jogo  5: x
+Jogo  6: 2
+Jogo  7: x
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 3
+Jogo  1: x
+Jogo  2: x
+Jogo  3: x
+Jogo  4: 2
+Jogo  5: 2
+Jogo  6: x
+Jogo  7: x
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 4
+Jogo  1: x
+Jogo  2: x
+Jogo  3: x
+Jogo  4: 2
+Jogo  5: x
+Jogo  6: 2
+Jogo  7: 2
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 5
+Jogo  1: x
+Jogo  2: 2
+Jogo  3: 2
+Jogo  4: 2
+Jogo  5: 2
+Jogo  6: 2
+Jogo  7: 2
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 6
+Jogo  1: x
+Jogo  2: 2
+Jogo  3: 2
+Jogo  4: 2
+Jogo  5: x
+Jogo  6: x
+Jogo  7: x
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 7
+Jogo  1: x
+Jogo  2: 2
+Jogo  3: x
+Jogo  4: x
+Jogo  5: 2
+Jogo  6: 2
+Jogo  7: x
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 8
+Jogo  1: x
+Jogo  2: 2
+Jogo  3: x
+Jogo  4: x
+Jogo  5: x
+Jogo  6: x
+Jogo  7: 2
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 9
+Jogo  1: 2
+Jogo  2: x
+Jogo  3: 2
+Jogo  4: 2
+Jogo  5: 2
+Jogo  6: 2
+Jogo  7: x
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 10
+Jogo  1: 2
+Jogo  2: x
+Jogo  3: 2
+Jogo  4: 2
+Jogo  5: x
+Jogo  6: x
+Jogo  7: 2
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 11
+Jogo  1: 2
+Jogo  2: x
+Jogo  3: x
+Jogo  4: x
+Jogo  5: 2
+Jogo  6: 2
+Jogo  7: 2
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 12
+Jogo  1: 2
+Jogo  2: x
+Jogo  3: x
+Jogo  4: x
+Jogo  5: x
+Jogo  6: x
+Jogo  7: x
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 13
+Jogo  1: 2
+Jogo  2: 2
+Jogo  3: 2
+Jogo  4: x
+Jogo  5: 2
+Jogo  6: x
+Jogo  7: x
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 14
+Jogo  1: 2
+Jogo  2: 2
+Jogo  3: 2
+Jogo  4: x
+Jogo  5: x
+Jogo  6: 2
+Jogo  7: 2
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 15
+Jogo  1: 2
+Jogo  2: 2
+Jogo  3: x
+Jogo  4: 2
+Jogo  5: 2
+Jogo  6: x
+Jogo  7: 2
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
++ Volante 16
+Jogo  1: 2
+Jogo  2: 2
+Jogo  3: x
+Jogo  4: 2
+Jogo  5: x
+Jogo  6: 2
+Jogo  7: x
+Jogo  8: 1
+Jogo  9: 1
+Jogo 10: 1
+Jogo 11: 1
+Jogo 12: 12
+Jogo 13: 12
+Jogo 14: 12
+- - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++
