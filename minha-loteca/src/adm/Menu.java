@@ -271,10 +271,10 @@ public class Menu {
 			for (int i = 0; i < resultado.getResultadoJogos().length; i++) {
 				if (i < 9) {
 					System.out.print("+ Jogo  " + (i + 1) + ": ");
-					resultado.getResultadoJogos()[i] = "0" + (i + 1) + ": " + in.nextLine();
+					resultado.getResultadoJogos()[i] = in.nextLine();
 				} else {
 					System.out.print("+ Jogo " + (i + 1) + ": ");
-					resultado.getResultadoJogos()[i] = (i + 1) + ": " + in.nextLine();
+					resultado.getResultadoJogos()[i] = in.nextLine();
 				}
 			}
 

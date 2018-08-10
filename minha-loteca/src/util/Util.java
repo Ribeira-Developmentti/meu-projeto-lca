@@ -18,15 +18,15 @@ import modelo.Volante;
 public class Util {
 
 	public static int id = 1;
-	
+
 	public static void imprimirVolantesTXT(List<Volante> todosVolantes) {
-		try(PrintStream writer = new PrintStream("volantes_impressos.txt")){
-			
+		try (PrintStream writer = new PrintStream("volantes_impressos.txt")) {
+
 			writer.println("++++++++++ Volantes Impressos em TXT +++++++++++");
 			for (Volante vol : todosVolantes) {
 				writer.println();
 				writer.println("+ Volante " + vol.getId());
-				
+
 				for (int i = 0; i < vol.getPalpites().length; i++) {
 					if (i < 9) {
 						writer.println("Jogo  " + (i + 1) + ": " + vol.getPalpites()[i]);
@@ -34,7 +34,7 @@ public class Util {
 						writer.println("Jogo " + (i + 1) + ": " + vol.getPalpites()[i]);
 					}
 				}
-				
+
 				writer.println("- - - - - - - - - - - - - - - - - - - - - - - - ");
 			}
 			writer.println();
@@ -45,7 +45,7 @@ public class Util {
 			System.out.println("+ Não conseguiu gravar o arquivo.              +" + e.getMessage());
 		}
 	}
-	
+
 	public static void salvarResultado(Resultado r) {
 		try (ObjectOutput out = new ObjectOutputStream(new FileOutputStream("resultado.obj"))) {
 			out.writeObject(r);
@@ -55,42 +55,44 @@ public class Util {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public static Resultado carregarResultado() {
-		Resultado result = null; 
+		Resultado result = null;
 		try (ObjectInput in = new ObjectInputStream(new FileInputStream("resultado.obj"))) {
 			result = (Resultado) in.readObject();
 		} catch (IOException | ClassNotFoundException e) {
-			//e.printStackTrace();
+			// e.printStackTrace();
 			return result;
 		}
 		return result;
 	}
-	
+
 	public static void conferirVolante(Volante v, Resultado resultado) {
-		for (String resultadoJogo : resultado.getResultadoJogos()) {
-			for (String palpiteUsuario : v.getPalpites()) {
-				if (resultadoJogo.equals(palpiteUsuario)) {
+		for (int i = 0; i < resultado.getResultadoJogos().length; i++) {
+			char[] pal = v.getPalpites()[i].toCharArray();
+			for (char x : pal) {
+				if (resultado.getResultadoJogos()[i].equals(Character.toString(x))) {
 					int pontuacaoVolante = v.getPontuacao();
 					pontuacaoVolante++;
 					v.setPontuacao(pontuacaoVolante);
+					break;
 				}
 			}
 		}
 	}
-	
+
 	@SuppressWarnings("unchecked")
 	public static List<Volante> carregarTodosVolantes() {
 		List<Volante> volantes = new ArrayList<>();
 		try (ObjectInput in = new ObjectInputStream(new FileInputStream("volantes.obj"))) {
 			volantes = (List<Volante>) in.readObject();
 		} catch (IOException | ClassNotFoundException e) {
-			//e.printStackTrace();
+			// e.printStackTrace();
 			return volantes;
 		}
 		return volantes;
 	}
-	
+
 	public static void salvarTabelaJogos(Tabela tabelaJogos) {
 		try (ObjectOutput out = new ObjectOutputStream(new FileOutputStream("tabela-jogos.obj"))) {
 			out.writeObject(tabelaJogos);
@@ -100,13 +102,13 @@ public class Util {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public static Tabela carregarTabelaJogos() {
 		Tabela tab = null;
 		try (ObjectInput in = new ObjectInputStream(new FileInputStream("tabela-jogos.obj"))) {
 			tab = (Tabela) in.readObject();
 		} catch (IOException | ClassNotFoundException e) {
-			//e.printStackTrace();
+			// e.printStackTrace();
 			return tab;
 		}
 		return tab;
@@ -120,6 +122,6 @@ public class Util {
 			System.err.println("+ Erro ao salvar volantes.                     +" + e.getMessage());
 			e.printStackTrace();
 		}
-		
+
 	}
 }
