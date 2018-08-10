@@ -280,8 +280,12 @@ public class Menu {
 
 			System.out.println("================= DETALHAMENTO =================");
 			System.out.println("+ Concurso: " + resultado.getConcurso());
-			for (String resultadoJogo : resultado.getResultadoJogos()) {
-				System.out.println("+ Jogo  " + resultadoJogo);
+			for (int i = 0; i < resultado.getResultadoJogos().length; i++) {
+				if (i < 9) {
+					System.out.println("+ Jogo  " + (i + 1) + ": " + resultado.getResultadoJogos()[i]);
+				} else {
+					System.out.println("+ Jogo " + (i + 1) + ": " + resultado.getResultadoJogos()[i]);
+				}
 			}
 			System.out.println("+ ============================================ +");
 
