@@ -411,7 +411,7 @@ public class Menu {
 		System.out.println("+ 3. Carregar Volantes                         +");
 		System.out.println("+ 4. Conferir Volantes                         +");
 		System.out.println("+ 5. Inserir Resultado                         +");
-		System.out.println("+ 6. Iprimir Volantes \"TXT\"                    +");
+		System.out.println("+ 6. Imprimir Volantes \"TXT\"                   +");
 		System.out.println("+==============================================+");
 
 		do {
