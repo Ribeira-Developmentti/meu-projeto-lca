@@ -71,7 +71,7 @@ public class Util {
 		for (int i = 0; i < resultado.getResultadoJogos().length; i++) {
 			char[] pal = v.getPalpites()[i].toCharArray();
 			for (char x : pal) {
-				if (resultado.getResultadoJogos()[i].equals(Character.toString(x))) {
+				if (resultado.getResultadoJogos()[i].equalsIgnoreCase(Character.toString(x))) {
 					int pontuacaoVolante = v.getPontuacao();
 					pontuacaoVolante++;
 					v.setPontuacao(pontuacaoVolante);
